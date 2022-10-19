@@ -16,7 +16,7 @@ function navbar() {
                     <a className='mx-4'>_projects</a>
                 </div>
             </div>
-            <div className='flex flex-row gap-8 font-semibold p-4 border-[#607B96] text-[#607B96]'>
+            <div className='flex flex-row gap-8 font-semibold p-4 ml-[1070px] border-l-[1px] border-[#607B96] text-[#607B96]'>
                 <a className='mx-4 justify-end'>_contact-me</a>
             </div>
         </nav>
