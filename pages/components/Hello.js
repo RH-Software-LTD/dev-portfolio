@@ -12,7 +12,7 @@ function Hello() {
                         <a className='mx-4 text-white'>_hello</a>
                     </div>
                     <div className='flex flex-row gap-8 font-semibold p-4 border-r-[1px] border-[#607B96] text-[#607B96]'>
-                        <a href="#about"className='mx-4'>_about-me</a>
+                        <a href="../components/About"className='mx-4'>_about-me</a>
                     </div>
                     <div className='flex flex-row gap-8 font-semibold p-4 border-r-[1px] border-[#607B96] text-[#607B96]'>
                         <a className='mx-4'>_projects</a>
@@ -42,8 +42,8 @@ function Hello() {
                                 <span className='text-white'>= </span>
                                 <a className='text-[#E99287]' target="_blank" href='https://github.com/HarunInam'>https://github.com/HarunInam</a>
                             </p>
-                        </div>
-                        <div className="md:w-1/2 p-8 justify-end text-white">
+                        </div>                        
+                        <div className="md:w-1/2 p-8 justify-end">
                             <img src='blurs.png' />
                          </div>
                     </div>
