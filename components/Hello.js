@@ -6,20 +6,22 @@ function Hello() {
     <section className='p-8 bg-black'>
         <section>
             <nav className='flex flex-row bg-blueText rounded-tl-2xl rounded-tr-2xl border-b-[1px] border-[#607B96]'>
-                <h1 className='p-4 text-grayText mr-24'>harun-inam</h1>
+                <h1 className='p-4 text-grayText'>harun-inam</h1>
+                <hr class="border-gray-200 sm:mx-6 dark:border-gray-700" />
                 <div className='flex flex-row'>
-                    <div className='flex flex-row gap-8 font-semibold p-4 border-x-[1px] border-[#607B96] border-b-2 border-b-[#FEA55F]'>
+                    <div className='flex flex-row font-semibold p-4 border-x-[1px] border-[#607B96] border-b-2 border-b-[#FEA55F]'>
                         <a className='mx-4 text-white'>_hello</a>
                     </div>
-                    <div className='flex flex-row gap-8 font-semibold p-4 border-r-[1px] border-[#607B96] text-[#607B96]'>
-                        <a href="../components/About"className='mx-4'>_about-me</a>
+                    <div className='flex flex-row font-semibold p-4 border-r-[1px] border-[#607B96] text-[#607B96]'>
+                        <a href="/About.js" className='mx-4'>_about-me</a>
                     </div>
-                    <div className='flex flex-row gap-8 font-semibold p-4 border-r-[1px] border-[#607B96] text-[#607B96]'>
+                    <div className='flex flex-row font-semibold p-4 border-r-[1px] border-[#607B96] text-[#607B96]'>
                         <a className='mx-4'>_projects</a>
                     </div>
                 </div>
-                <div className='flex flex-row gap-8 font-semibold p-4 ml-[1070px] border-l-[1px] border-[#607B96] text-[#607B96]'>
-                    <a className='mx-4 justify-end'>_contact-me</a>
+                <hr class="border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-2" />
+                <div className='flex flex-row font-semibold p-3 border-l-[1px] border-[#607B96] text-[#607B96]'>
+                    <a className='mx-2 my-auto justify-end'>_contact-me</a>
                 </div>
             </nav>
         </section>
